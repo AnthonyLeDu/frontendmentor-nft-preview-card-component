@@ -1,0 +1,90 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: Outfit;
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1em;
+    width: 300px;
+    padding: 1.3em;
+}
+
+.card-image {
+    border-radius: 1em;
+}
+
+h1 {
+    margin: 1em 0;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+p {
+    font-weight: 300;
+}
+
+.price-and-clock {
+    margin: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.price-and-clock > * {
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+}
+
+.clock__text {
+    font-size: 400;
+}
+
+.creator {
+    padding-top: 0.8em;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    height: 2.7rem;
+    display: flex;
+    align-items: center;
+}
+
+.creator__picture {
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-right: 1em;
+}
+
+.creator__description {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.creator__name {
+    color: white;
+}
+
+.attribution {
+    margin-top: 1rem;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
